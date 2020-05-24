@@ -108,8 +108,10 @@ nav a {
 }
 
 iframe {
-    border-left: none;
-    border-right: none;
+    border-bottom-left-radius:10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     border-top-color: #0091E9;
     border-bottom-color: #0091E9;
     border-top: thin solid #0091E9;
