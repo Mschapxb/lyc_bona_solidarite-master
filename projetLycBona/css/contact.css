@@ -1,3 +1,18 @@
+body {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column; /* Les éléments sont empilés */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    width: 100%; /* La page occupe toute la largeur */
+}
+picture {
+    display: flex;
+}
+header {
+    width: 916px; /* Les headers et sections occupent 916px (taille de la bannière) */
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: column; /* Les éléments sont empilés */
+}
 #contact h1 {
     margin-top: 10px;
     text-align: left;
@@ -116,6 +131,27 @@ input[type="email"]:valid ~ .input-validation::before {
 #video article p {
  padding-right: 10px;
  text-align: justify;
+}
+
+footer {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    position: fixed; /* Le conteneur est fixé en fonction de ses coordonnées (à 0px du bas) */
+    bottom: 0px; /* Bas */
+    height: 35px; /* Hauteur */
+    width: 100%; /* Le pied de page occupe toute la largeur */ 
+    background-color:#2d2d2d; /* Couleur de fond */
+    color: #bbb; /* Couleur du texte */
+    text-align:center; /* Texte centré */
+}
+
+footer p {
+    font-size: large; /* Le texte est grossi en L */
+}
+
+footer a{
+    color: inherit; /* Couleur du lien identique à celle du conteneur */
 }
 
 
